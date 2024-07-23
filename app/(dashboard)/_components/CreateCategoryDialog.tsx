@@ -116,7 +116,7 @@ function CreateCategoryDialog({ type, successCallback, trigger }: Props) {
       </DialogTrigger>
       <DialogContent>
         <DialogHeader>
-          <DialogTitle>
+          <DialogTitle >
             Create
             <span
               className={cn(

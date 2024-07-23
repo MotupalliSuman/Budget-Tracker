@@ -4,7 +4,6 @@ import { useQuery } from '@tanstack/react-query';
 import React, { useMemo, useState } from 'react'
 import {
   ColumnDef,
-  ColumnFilter,
   ColumnFiltersState,
   SortingState,
   flexRender,
@@ -301,9 +300,9 @@ function RowActions({transaction}:{transaction:TransactionHistoryRow}){
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent>
-        <DropdownMenuLabel>Actions</DropdownMenuLabel>
+        <DropdownMenuLabel className='text-center'>Actions</DropdownMenuLabel>
         <DropdownMenuSeparator />
-        <DropdownMenuItem className='flex items-center gap-2' onSelect={()=>{setShowDeleteDialog(prev => !prev)}}>
+        <DropdownMenuItem className='flex items-center justify-center gap-2' onSelect={()=>{setShowDeleteDialog(prev => !prev)}}>
            <TrashIcon className='h-4 w-4 text-muted-foreground'/>
         </DropdownMenuItem>
 
