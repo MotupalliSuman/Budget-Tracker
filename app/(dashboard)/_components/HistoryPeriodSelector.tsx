@@ -74,10 +74,9 @@ function YearSelector({ period, setPeriod, years }: {
             </SelectTrigger>
             <SelectContent>
                 {years
-                    .filter((year) => year !== null && year !== undefined)
                     .map((year) => (
-                        <SelectItem key={year} value={year.toString()}>
-                            {year}
+                        <SelectItem key={year.toString()} value={year.toString()}>
+                            {year.toString()}
                         </SelectItem>
                     ))}
             </SelectContent>
