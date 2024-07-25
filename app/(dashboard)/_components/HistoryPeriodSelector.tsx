@@ -75,9 +75,9 @@ function YearSelector({ period, setPeriod, years }: {
             <SelectContent>
                 {years
                     .map((year) => (
-                        <SelectItem key={year.toString()} value={year.toString()}>
-                            {year.toString()}
-                        </SelectItem>
+                        // <SelectItem key={year} value={year.toString()}>
+                        //     {year}
+                        // </SelectItem>
                     ))}
             </SelectContent>
         </Select>
