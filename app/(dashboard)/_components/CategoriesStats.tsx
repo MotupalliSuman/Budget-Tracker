@@ -31,7 +31,7 @@ const formatter =useMemo(()=>{
     
 
   return (
-    <div className='flex w-full gap-2 '>
+    <div className='flex w-full gap-2 max-sm:flex-col'>
         <SkeletonWrapper isLoading={statsQuery.isFetching}>
             <CategoriesCard  formatter={formatter} type="income" data={statsQuery.data || []}/>
           

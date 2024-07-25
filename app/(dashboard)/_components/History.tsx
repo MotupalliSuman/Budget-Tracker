@@ -45,8 +45,8 @@ function History({userSettings}:{userSettings:UserSettings}) {
 
 
   return (
-    <div className='container'>
-        <h2 className='mt-8 text-3xl font-bold'>History</h2>
+    <div className='container max-sm:px-0'>
+        <h2 className='mt-8 text-3xl font-bold max-sm:px-8'>History</h2>
         <Card className='col-span-12 my-8 w-full'>
             <CardHeader className='gap-2'>
                 <CardTitle className='grid grid-flow-row justify-between gap-2 md:grid-flow-col'>

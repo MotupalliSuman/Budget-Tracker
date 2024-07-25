@@ -22,7 +22,7 @@ async function Page(){
                <h1 className='text-center text-3xl'>
                    Welcome, <span> {user.firstName} 👋</span>
                </h1>
-               <h2 className='mt-4 text-center text-base text-muted-foreground'> Let's get started by setting up your currency</h2>
+               <h2 className='mt-4 text-center text-base text-muted-foreground'> Let&apos;s get started by setting up your currency</h2>
                <h3 className='mt-2 text-center text-sm text-muted-foreground'> You can change these settings at any time </h3>
             </div>
             <Separator/>
@@ -38,7 +38,7 @@ async function Page(){
             </Card>
             <Separator />
             <Button >
-                  <Link href={"/"}>I'm done! Take me To the dashboard </Link>
+                  <Link href={"/"}>I&apos;m done! Take me To the dashboard </Link>
             </Button>
         </div>
     )

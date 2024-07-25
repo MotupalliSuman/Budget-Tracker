@@ -235,6 +235,7 @@ function TransactionTable({from,to}:Props) {
                 <TableRow
                   key={row.id}
                   data-state={row.getIsSelected() && "selected"}
+                  className='even:bg-background'
                 >
                   {row.getVisibleCells().map((cell) => (
                     <TableCell key={cell.id}>
