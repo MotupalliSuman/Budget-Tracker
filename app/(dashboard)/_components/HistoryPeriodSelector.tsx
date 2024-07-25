@@ -69,17 +69,17 @@ function YearSelector({ period, setPeriod, years }: {
                 });
             }}
         >
-            <SelectTrigger className='w-[140px]'>
+            {/* <SelectTrigger className='w-[140px]'>
                 <SelectValue />
             </SelectTrigger>
             <SelectContent>
                 {years
                     .map((year) => (
-                        // <SelectItem key={year} value={year.toString()}>
-                        //     {year}
-                        // </SelectItem>
+                        <SelectItem key={year} value={year.toString()}>
+                            {year}
+                        </SelectItem>
                     ))}
-            </SelectContent>
+            </SelectContent> */}
         </Select>
     )
 }
